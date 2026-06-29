@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Dev Tech logo">
   <rect width="128" height="128" rx="24" fill="#ffffff"/>
-  <path d="M50 37H8" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
-  <path d="M86 72v48" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
-  <path d="M86 8 95 35 122 44 95 53 86 80 77 53 50 44 77 35Z" fill="#111827"/>
-  <path d="M27 90V48h27c13 0 23 8 23 21s-10 21-23 21H27Zm14-13h12c6 0 10-3 10-8s-4-8-10-8H41v16Z" fill="#111827"/>
-  <path d="M70 48h37v13H95v29H81V61H70V48Z" fill="#111827"/>
-  <path d="M28 101h72" stroke="#16a34a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M51 38H8" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+  <path d="M84 72v48" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+  <path d="M84 8 93 35 120 44 93 53 84 80 75 53 48 44 75 35Z" fill="#111827"/>
+  <path d="M33 95h54" stroke="#16a34a" stroke-width="7" stroke-linecap="round"/>
 </svg>
