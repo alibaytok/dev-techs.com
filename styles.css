@@ -421,12 +421,86 @@ address a {
 
 footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 18px;
   padding: 24px clamp(20px, 5vw, 72px);
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 14px;
+}
+
+.footer-links {
+  gap: 14px;
+  font-size: 14px;
+}
+
+.policy-main {
+  background: var(--paper);
+}
+
+.policy-hero {
+  padding: clamp(52px, 8vw, 92px) clamp(20px, 5vw, 72px) clamp(38px, 6vw, 68px);
+  border-bottom: 1px solid var(--line);
+  background: var(--soft);
+}
+
+.policy-hero h1 {
+  max-width: 880px;
+  margin-bottom: 18px;
+  font-size: clamp(40px, 5vw, 64px);
+}
+
+.policy-hero .lead {
+  max-width: 760px;
+}
+
+.policy-content {
+  display: grid;
+  gap: 30px;
+  max-width: 920px;
+  padding: clamp(44px, 7vw, 82px) clamp(20px, 5vw, 72px);
+}
+
+.policy-content section {
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+}
+
+.policy-content section:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.policy-content h2 {
+  margin-bottom: 12px;
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.policy-content p,
+.policy-content li {
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.policy-content ul,
+.policy-content ol {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding-left: 22px;
+}
+
+.policy-content a {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.policy-note {
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--soft);
 }
 
 @media (max-width: 920px) {
@@ -492,5 +566,6 @@ footer {
 
   footer {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
