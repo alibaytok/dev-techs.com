@@ -445,6 +445,12 @@ footer {
   background: var(--soft);
 }
 
+.policy-hero > * {
+  max-width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .policy-hero h1 {
   max-width: 880px;
   margin-bottom: 18px;
@@ -459,6 +465,7 @@ footer {
   display: grid;
   gap: 30px;
   max-width: 920px;
+  margin: 0 auto;
   padding: clamp(44px, 7vw, 82px) clamp(20px, 5vw, 72px);
 }
 
