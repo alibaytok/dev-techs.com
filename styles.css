@@ -238,6 +238,53 @@ h3 {
   color: var(--muted);
 }
 
+.product-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(320px, 0.85fr);
+  gap: clamp(28px, 6vw, 76px);
+  align-items: start;
+  border-top: 1px solid var(--line);
+}
+
+.product-copy p {
+  max-width: 740px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.product-copy .button {
+  margin-top: 14px;
+}
+
+.product-panel {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--soft);
+}
+
+.product-panel div {
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.product-panel span {
+  display: inline-flex;
+  margin-bottom: 16px;
+  color: var(--accent-dark);
+  font-size: 13px;
+  font-weight: 780;
+}
+
+.product-panel p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 .company-section {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(320px, 1fr);
@@ -308,6 +355,7 @@ footer {
 
 @media (max-width: 920px) {
   .hero,
+  .product-section,
   .company-section,
   .contact-section {
     grid-template-columns: 1fr;
