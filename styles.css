@@ -285,6 +285,55 @@ h3 {
   color: var(--muted);
 }
 
+.comparison-section {
+  border-top: 1px solid var(--line);
+  background: #fff;
+}
+
+.comparison-heading {
+  max-width: 880px;
+}
+
+.comparison-heading p:not(.section-label) {
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 36px;
+}
+
+.comparison-grid article {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--soft);
+}
+
+.comparison-grid .comparison-advantage {
+  color: #fff;
+  border-color: var(--ink);
+  background: var(--ink);
+}
+
+.comparison-grid ul {
+  display: grid;
+  gap: 13px;
+  margin: 18px 0 0;
+  padding-left: 20px;
+}
+
+.comparison-grid li {
+  color: var(--muted);
+}
+
+.comparison-grid .comparison-advantage li {
+  color: rgba(255, 255, 255, 0.82);
+}
+
 .company-section {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(320px, 1fr);
@@ -372,6 +421,10 @@ footer {
 
   .service-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .comparison-grid {
+    grid-template-columns: 1fr;
   }
 }
 
