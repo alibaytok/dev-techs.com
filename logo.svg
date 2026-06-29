@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Dev Tech logo">
   <rect width="128" height="128" rx="24" fill="#ffffff"/>
-  <path d="M51.2 38.4H0" stroke="#111827" stroke-width="2.5"/>
-  <path d="M84.5 71.7V128" stroke="#111827" stroke-width="2.5"/>
-  <path d="M84.5 5.2 92.8 30.1 117.8 38.4 92.8 46.7 84.5 71.7 76.2 46.7 51.2 38.4 76.2 30.1Z" fill="#111827"/>
-  <path d="M27.5 67.5c0-10.2 8.3-18.5 18.5-18.5h14.5v11.8H46c-3.7 0-6.7 3-6.7 6.7v9.1c0 3.7 3 6.7 6.7 6.7h20.4l14.9 13.2V83.3h2.8c3.7 0 6.7-3 6.7-6.7v-7.3h11.8v7.3c0 10.2-8.3 18.5-18.5 18.5h-1v27.7L61.9 95.1H46c-10.2 0-18.5-8.3-18.5-18.5v-9.1Z" fill="#111827"/>
-  <circle cx="52" cy="71" r="4.4" fill="#16a34a"/>
-  <circle cx="66" cy="71" r="4.4" fill="#16a34a"/>
+  <path d="M50 37H8" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+  <path d="M86 72v48" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+  <path d="M86 8 95 35 122 44 95 53 86 80 77 53 50 44 77 35Z" fill="#111827"/>
+  <path d="M27 90V48h27c13 0 23 8 23 21s-10 21-23 21H27Zm14-13h12c6 0 10-3 10-8s-4-8-10-8H41v16Z" fill="#111827"/>
+  <path d="M70 48h37v13H95v29H81V61H70V48Z" fill="#111827"/>
+  <path d="M28 101h72" stroke="#16a34a" stroke-width="7" stroke-linecap="round"/>
 </svg>
