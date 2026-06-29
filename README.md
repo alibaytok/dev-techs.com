@@ -18,11 +18,25 @@ This site can be deployed as a static site on Cloudflare Pages, Vercel, Netlify,
 
 Recommended fast path:
 
-1. Create a Cloudflare Pages or Vercel project from this folder.
+1. Publish this folder with GitHub Pages, Cloudflare Pages, Vercel, or any static host.
 2. Add the custom domain `dev-techs.com`.
 3. Add the DNS records requested by the host.
 4. Confirm `https://dev-techs.com` opens without browser warnings.
 5. Use `https://dev-techs.com` in Meta Business Verification.
+
+## GitHub Pages DNS
+
+When GitHub Pages is used, set these DNS records in the domain provider panel:
+
+| Type | Host | Value |
+| --- | --- | --- |
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | alibaytok.github.io |
+
+Do not add wildcard DNS records.
 
 Drag-and-drop option:
 
